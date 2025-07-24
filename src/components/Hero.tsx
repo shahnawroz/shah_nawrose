@@ -32,7 +32,7 @@ const Hero = () => {
 
           {/* Tech Stack */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
-            {["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js"].map(
+            {["React", "Next.js", "TypeScript", "Tailwind CSS", "Api Integration"].map(
               (tech) => (
                 <span
                   key={tech}

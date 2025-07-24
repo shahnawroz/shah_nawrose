@@ -47,7 +47,7 @@ const About = () => {
                 {[
                   { skill: "Frontend Development", level: "95%" },
                   { skill: "React/Next.js", level: "90%" },
-                  { skill: "TypeScript", level: "85%" },
+                  { skill: "Tailwind CSS", level: "85%" },
                   { skill: "UI/UX Design", level: "80%" }
                 ].map(({ skill, level }) => (
                   <div key={skill} className="space-y-2">
