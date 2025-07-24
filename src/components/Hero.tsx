@@ -13,7 +13,7 @@ const Hero = () => {
           {/* Profile Image */}
           <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-primary to-accent p-1 animate-float">
             <div className="w-full h-full bg-background rounded-full flex items-center justify-center">
-              <span className="text-4xl font-bold text-gradient">JD</span>
+              <span className="text-4xl font-bold text-gradient">SN</span>
             </div>
           </div>
           

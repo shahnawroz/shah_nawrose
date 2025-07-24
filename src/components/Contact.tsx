@@ -34,19 +34,19 @@ const Contact = () => {
                 {
                   icon: Mail,
                   label: "Email",
-                  value: "hello@johndoe.dev",
-                  href: "mailto:hello@johndoe.dev"
+                  value: "sh.nawrose@gmail.com",
+                  href: "mailto:sh.nawrose@gmail.com"
                 },
                 {
                   icon: Phone,
                   label: "Phone",
-                  value: "+1 (555) 123-4567",
-                  href: "tel:+15551234567"
+                  value: "+880 1761-867763",
+                  href: "tel:+8801761867763"
                 },
                 {
                   icon: MapPin,
                   label: "Location",
-                  value: "San Francisco, CA",
+                  value: "Dhaka, Bangladesh",
                   href: "#"
                 }
               ].map(({ icon: Icon, label, value, href }) => (

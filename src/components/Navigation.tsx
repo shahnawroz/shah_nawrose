@@ -29,7 +29,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#" className="text-2xl font-bold text-gradient">
-            JohnDoe.dev
+            Shah Nawrose
           </a>
 
           {/* Desktop Navigation */}
