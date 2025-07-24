@@ -7,7 +7,7 @@ const Projects = () => {
       id: 1,
       title: "E-Commerce Platform",
       description: "A modern e-commerce platform built with React, Next.js, and Stripe integration. Features include product catalog, shopping cart, and secure payments.",
-      image: "public/project1.png",
+      image: "/project1.png",
       technologies: ["React", "Next.js", "Stripe", "Tailwind CSS"],
       liveUrl: "https://www.daattihomecollection.com/#",
       githubUrl: "#",
