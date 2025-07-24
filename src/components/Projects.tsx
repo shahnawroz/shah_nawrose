@@ -7,9 +7,9 @@ const Projects = () => {
       id: 1,
       title: "E-Commerce Platform",
       description: "A modern e-commerce platform built with React, Next.js, and Stripe integration. Features include product catalog, shopping cart, and secure payments.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
+      image: "public/project1.png",
       technologies: ["React", "Next.js", "Stripe", "Tailwind CSS"],
-      liveUrl: "#",
+      liveUrl: "https://www.daattihomecollection.com/#",
       githubUrl: "#",
       featured: true
     },
@@ -83,10 +83,7 @@ const Projects = () => {
                       <ExternalLink className="w-4 h-4" />
                       Live Demo
                     </Button>
-                    <Button variant="minimal" size="sm">
-                      <Github className="w-4 h-4" />
-                      Code
-                    </Button>
+                  
                   </div>
                 </div>
                 
