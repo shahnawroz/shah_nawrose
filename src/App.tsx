@@ -8,15 +8,22 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+const getBaseName = () => {
+  if (typeof window === 'undefined') return '/'; // SSR safe fallback
+  const path = window.location.pathname;
+  // If on GitHub Pages repo subpath like /shah_nawrose/, use that
+  if (path.startsWith('/shah_nawrose/')) return '/shah_nawrose';
+  return '/'; // localhost or root path fallback
+};
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename={getBaseName()}>
         <Routes>
           <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
