@@ -10,21 +10,25 @@ const Navigation = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-    
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const navItems = [
     { label: "About", href: "#about" },
     { label: "Projects", href: "#projects" },
-    { label: "Contact", href: "#contact" }
+   
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-background/80 backdrop-blur-md border-b border-border' : 'bg-transparent'
-    }`}>
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        isScrolled
+          ? "bg-background/80 backdrop-blur-md border-b border-border"
+          : "bg-transparent"
+      }`}
+    >
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -43,9 +47,11 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
-            <Button variant="cta" size="sm">
-              Hire Me
-            </Button>
+            <a href="#contact">
+              <Button variant="cta" size="sm">
+                Hire Me
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -73,9 +79,11 @@ const Navigation = () => {
                   {item.label}
                 </a>
               ))}
-              <Button variant="cta" size="sm" className="w-fit">
-                Hire Me
-              </Button>
+              <a href="#contact" onClick={() => setIsOpen(false)}>
+                <Button variant="cta" size="sm" className="w-fit">
+                  Hire Me
+                </Button>
+              </a>
             </div>
           </div>
         )}

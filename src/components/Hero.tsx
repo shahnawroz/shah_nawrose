@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail, Download } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 sm:pt-24">
       {/* Background gradient orbs */}
       <div className="absolute top-20 left-20 w-72 h-72 hero-gradient rounded-full blur-3xl opacity-20 animate-pulse-slow"></div>
       <div className="absolute bottom-20 right-20 w-96 h-96 bg-accent rounded-full blur-3xl opacity-10 animate-float"></div>
