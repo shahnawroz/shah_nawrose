@@ -44,7 +44,7 @@ const Projects = () => {
       description:
         "An online platform for sharing and voting on opinions.",
       image:
-        "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop",
+        "./project4.png",
       technologies: ["Next.js", "React", "Laravel", "Tailwind CSS", "Wireframe"],
       liveUrl: "https://motamot.io/",
       githubUrl: "#",
