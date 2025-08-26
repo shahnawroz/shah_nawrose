@@ -18,7 +18,7 @@ const About = () => {
             <div className="relative">
               <div className="aspect-square bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl p-8 flex items-center justify-center">
                 <div className="text-center">
-                  <div className="text-6xl font-bold text-gradient mb-4">3+</div>
+                  <div className="text-6xl font-bold text-gradient mb-4">2+</div>
                   <p className="text-lg text-muted-foreground">Years of Experience</p>
                 </div>
               </div>
@@ -31,7 +31,7 @@ const About = () => {
             {/* Right side - Content */}
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate frontend developer with over 3 years of experience building 
+                I'm a passionate frontend developer with over 2 years of experience building 
                 modern web applications. I specialize in React, Next.js, and TypeScript, 
                 with a strong focus on creating intuitive user experiences.
               </p>
